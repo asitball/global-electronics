@@ -1,16 +1,18 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import playersData './data/data.json';
+import Player from './components/Player/Player';
+import playersData from './data/data.json';
 
 function App() {
   const [player, setPlayer] = useState([])
   useEffect(()=> {
     setPlayer(playersData);
-    console.log(playersData);
   },[])
   return (
     <div>
-      
+      {
+        playersData.map(player=> <Player player={player}></Player>)
+      }
     </div>
   );
 }
