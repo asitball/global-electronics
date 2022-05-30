@@ -7,6 +7,7 @@ import Reviews from './component/Reviews/Reviews';
 import Dashboard from './component/Dashboard/Dashboard';
 import About from './component/About/About';
 import Blogs from './component/Blogs/Blogs';
+import NotFound from './component/NotFound/NotFound';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
