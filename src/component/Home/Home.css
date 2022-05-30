@@ -1,12 +1,40 @@
 
+*{
+font-family: 'Montserrat', sans-serif;
+}
 .product-into-container{
     height: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    padding: 50px 20px;
+    padding: 50px 80px;
 }
 .product-image img{
     width: 300px;
+    float: right;
+}
+.live-demo-btn{
+    background-color:#E6DADA;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #004e92;
+    cursor: pointer;
+    font-size: 20px;
+}
+.product-into .highlight-title{
+    color: #004e92;
+}
+.product-into h1{
+    font-size: 50px;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+}
+.product-into p{
+    color: gray;
+    line-height: 1.5rem;
+}
+.live-demo-btn:hover{
+    color: orange;
 }

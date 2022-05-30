@@ -1,0 +1,9 @@
+
+.question-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.question-1, .question-2{
+    margin: 15px;
+    padding: 0 25px;
+}
