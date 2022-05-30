@@ -1,8 +1,19 @@
-.review-container img{
+/* .review-container img{
     height: 300px;
 }
 .review-container{
+    border: 1px solid gray;
     align-items: center;
     box-shadow: 1px 1px 5px;
-    padding: 20px;
+} */
+.reviews-container img{
+    height: 300px;
+}
+.reviews-container{
+    height: 450px;
+}
+.reviews-container{
+    box-shadow: 1px 1px 05px;
+    padding: 25px;
+    text-align: center;
 }
